@@ -1,0 +1,141 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+font-family: sans-serif;
+}
+
+
+.header{
+ background-image:url("https://www.quackit.com/html/templates/download/bootstrap/business-1/images/light_bulb.jpg") ;
+ font-size: 100px;
+ color: #ffffff;
+ padding: 30px 0;
+}
+.header p{
+    font-size: 50px;
+}
+
+.container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+ul{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   /* position: absolute; */
+    
+   background-color: #f2f2f2;
+   display: flex;
+    width: 100%;
+ /* display: inline; */
+margin: 10px 20px;
+text-align: center;
+justify-content: space-between;
+}
+li a{
+display: block;
+color: rgb(141, 135, 135);
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+
+}
+.nav{
+justify-content: space-between;
+display: flex;
+align-items: center;
+
+}
+
+.container h3{
+    color: orange;
+   float: left;
+  padding: 15px 15px;
+ font-size: 18px;
+line-height: 20px;
+
+}
+.content{
+text-align: center;
+color: orange;
+padding: 20px;
+}
+.content p{
+    font-size: 20px;
+   color: gray;
+   text-align: center;
+   max-width: 1100px;
+    margin: 0 auto;
+}
+.grid-contaner{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; 
+    /* margin: auto; */
+    /* gap: 40px; */
+    /* padding: 40px; */
+    /* max-width: 1200px; */
+    color: #ffffff;
+}
+.item.item-1{
+background-image: url(https://www.quackit.com/html/templates/download/bootstrap/business-1/images/mung_beans.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+/* padding: 20px 20px; */
+}
+
+.item.item-1 h1{
+    text-align: center;
+    padding: 100px;
+}
+.item.item-2{
+  background-image: url(	https://www.quackit.com/html/templates/download/bootstrap/business-1/images/coffee_beans_1.jpg);
+  background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
+}
+.item.item-2 h1{
+    text-align: center;
+    padding: 100px;
+}
+
+.item.item-3{
+background-image: url(https://www.quackit.com/html/templates/download/bootstrap/business-1/images/grapes.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+
+
+}
+.item.item-3 h1{
+    text-align: center;
+    padding: 100px;
+}
+
+.products h1{
+ text-align: center;
+ color: orange;
+  padding: 20px;
+}
+.grid-contaner2{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr ;
+ padding: 10px 10px;
+ margin:auto ;
+}
+.item.item-4 h4{
+ 
+
+}

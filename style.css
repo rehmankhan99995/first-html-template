@@ -132,10 +132,45 @@ background-repeat: no-repeat;
 .grid-contaner2{
  display: grid;
  grid-template-columns: 1fr 1fr 1fr 1fr ;
- padding: 10px 10px;
- margin:auto ;
+ max-width: 1000px;
+    margin: 0 auto;
+ gap: 30px;
 }
-.item.item-4 h4{
- 
+.item.item-4 img{
+ max-width: 100%;
+ height: auto;
+}
+.item.item-5 img{
+max-width: 100%;
+ height: auto;
+}
+.item.item-6 img{
+max-width: 100%;
+ height: auto;
+}    
+.item.item-7 img{
+max-width: 100%;
+ height: auto;
+}
+
+.growth h4{
+ color: orange;
+ padding: 20px;
+  font-size: medium;
+
+}
+.growth p{
+text-align: left;
+max-width: 300px;
+}
+.grid-contaner2 h4 {
+color: orange;
+font-size: medium;
+padding: 10px;
+}
+.grid-contaner2 h2{
+color: orange;
+font-size: 20px;
+padding: 10px;
 
 }

@@ -10,7 +10,7 @@ font-family: sans-serif;
 
 
 .header{
- background-image:url("https://www.quackit.com/html/templates/download/bootstrap/business-1/images/light_bulb.jpg") ;
+ background-image:url("./assets/bulb.jpg") ;
  font-size: 100px;
  color: #ffffff;
  padding: 30px 0;
@@ -87,7 +87,7 @@ padding: 20px;
     color: #ffffff;
 }
 .item.item-1{
-background-image: url(https://www.quackit.com/html/templates/download/bootstrap/business-1/images/mung_beans.jpg);
+background-image: url("./assets/mung_beans.jpg");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -99,7 +99,7 @@ background-repeat: no-repeat;
     padding: 100px;
 }
 .item.item-2{
-  background-image: url(	https://www.quackit.com/html/templates/download/bootstrap/business-1/images/coffee_beans_1.jpg);
+  background-image: url("./assets/coffee_beans_1.jpg");
   background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -112,7 +112,7 @@ background-repeat: no-repeat;
 }
 
 .item.item-3{
-background-image: url(https://www.quackit.com/html/templates/download/bootstrap/business-1/images/grapes.jpg);
+background-image: url("./assets/grapes.jpg");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -166,11 +166,96 @@ max-width: 300px;
 .grid-contaner2 h4 {
 color: orange;
 font-size: medium;
-padding: 10px;
+ padding: 10px 0px; 
 }
 .grid-contaner2 h2{
 color: orange;
 font-size: 20px;
-padding: 10px;
+ padding: 10px 0px; 
 
 }
+.grid-contaner2 input.btn{
+    border: 1px solid; 
+    border-radius: 4px;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+.grid-contaner2 button{
+background-color: tomato;
+font: 100% sans-serif;
+color: #ffffff;     
+}
+.pre{
+    text-align: center;
+color: orange;
+padding: 20px;
+}
+.pre p{
+    font-size: 20px;
+   color: gray;
+   text-align: center;
+   max-width: 1100px;
+    margin: 0 auto;
+}
+
+.grid-contaner3{
+    display: flex;
+ flex-direction: column;
+ 
+
+    max-width: 500px;
+    margin: 0 auto;
+    gap: 30px;}
+
+
+.image{
+    
+    justify-content: center;
+    align-items: center;
+     margin: 20px 0;
+    border-radius:50% ;
+}
+.Find-us{
+    text-align: center;
+    color: orange;
+    padding: 20px;
+}
+.map img{
+max-width: 100%;
+height: 300px;;
+width:100% ;
+object-fit: cover;
+}
+.pre2 p{
+ font-size: 20px;
+   color: gray;
+   text-align: center;
+   max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.contact h1{
+text-align: center;
+color: orange;
+padding: 20px;
+
+}
+.contact p{
+    font-size: 20px;
+   color: gray;
+   text-align: center;
+   max-width: 200px;
+    margin: 0 auto;
+}
+ .container4{
+ display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; 
+    
+    color: #ed4545;
+     font-weight: 100;
+ }
+ .container4 h1{
+   font-size: large;
+   color: #000; 
+}
+
